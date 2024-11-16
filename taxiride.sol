@@ -16,7 +16,9 @@ bool isCompleted;//option to see if ride has been accepted by rider
 mapping (uint => Ride) public ridesByID;
 uint public rideCount;// counting the rides
 
-
 //events
-
+event RideRequested(uint rideId, address rider, uint fare);// when the rider requests the ride 
+event RideAccepted (uint rideId ,address driver );// when the driver acceptes the ride 
+event RideCompletedByRider (uint rideId, address driver, uint fare); // the ride being completed
+event PaymentRecieved(address driver,uint fare );// ommited when payment is done 
 }

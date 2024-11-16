@@ -6,6 +6,94 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "driver",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "fare",
+						"type": "uint256"
+					}
+				],
+				"name": "PaymentRecieved",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "rideId",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "driver",
+						"type": "address"
+					}
+				],
+				"name": "RideAccepted",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "rideId",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "driver",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "fare",
+						"type": "uint256"
+					}
+				],
+				"name": "RideCompletedByRider",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "rideId",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "rider",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "fare",
+						"type": "uint256"
+					}
+				],
+				"name": "RideRequested",
+				"type": "event"
+			},
+			{
 				"inputs": [],
 				"name": "owner",
 				"outputs": [
@@ -112,11 +200,11 @@
 	},
 	"sources": {
 		"taxiride.sol": {
-			"keccak256": "0xc771e7444a0283c8616606f9151bc261c44dcbf0117d8b21e06e67d939df5ba8",
+			"keccak256": "0x41cbba79972da46301e8124755c6cceb933e68ec496c5ddc2534d223abb75a34",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3b750c7a96449ffdd5b00ad1d223b9930e69d0bf747acee35d410ef384f3d7b4",
-				"dweb:/ipfs/QmRpVtWA3TFdW8g43RVbf2y4iAx8UWvMvZF5Ray5TuWPZc"
+				"bzz-raw://2a8989cd123380d9c63aaa2b3417ae1aaf159a23121a61060327853944ca1e91",
+				"dweb:/ipfs/Qme6bH1yqyb58RyEnHHKFzDFVy3SRg3sFaWM6XgsY4f8Yb"
 			]
 		}
 	},
