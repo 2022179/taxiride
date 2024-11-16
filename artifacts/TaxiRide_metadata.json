@@ -1,0 +1,124 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "platformBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "rideCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "ridesByID",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "rider",
+						"type": "address"
+					},
+					{
+						"internalType": "address payable",
+						"name": "driver",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "fare",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "isAccepted",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "isCompleted",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"taxiride.sol": "TaxiRide"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"taxiride.sol": {
+			"keccak256": "0xc771e7444a0283c8616606f9151bc261c44dcbf0117d8b21e06e67d939df5ba8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3b750c7a96449ffdd5b00ad1d223b9930e69d0bf747acee35d410ef384f3d7b4",
+				"dweb:/ipfs/QmRpVtWA3TFdW8g43RVbf2y4iAx8UWvMvZF5Ray5TuWPZc"
+			]
+		}
+	},
+	"version": 1
+}

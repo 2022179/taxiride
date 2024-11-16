@@ -12,4 +12,11 @@ uint fare;// ride fare here
 bool isAccepted;// option to see if driver has accept the ride
 bool isCompleted;//option to see if ride has been accepted by rider
 }
+// storing rides by ID
+mapping (uint => Ride) public ridesByID;
+uint public rideCount;// counting the rides
+
+
+//events
+
 }
